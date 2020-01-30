@@ -339,6 +339,11 @@
 330	common	pkey_alloc		sys_pkey_alloc
 331	common	pkey_free		sys_pkey_free
 332	common	statx			sys_statx
+333 common  labsysc1        sys_labsysc1
+334 common  labsysc2        sys_labsysc2
+335 common  labsysc3        sys_labsysc3
+336 common  labsysc4        sys_labsysc4
+
 
 #
 # x32-specific system call numbers start at 512 to avoid cache impact
