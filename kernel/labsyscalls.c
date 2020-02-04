@@ -74,8 +74,9 @@
 /* syscall 333 */
 SYSCALL_DEFINE1(labsysc1, const int, val)
 {
-	printk(val);
-	return -1;
+	int num = val;
+    printk("Integer value is %d \n", num);
+	return 0;
 }
 
 /* syscall 334 */
